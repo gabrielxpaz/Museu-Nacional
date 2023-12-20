@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f4f2ec url(img/fundo.png);
+    background-repeat: repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+.wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    height: fit-content;
+}
+header .wrapper {
+    width: 1080px;
+    height: 55px;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .wrapper a{
+    width: 248px;
+    height: 21px;
+    margin-top: 16.080px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+nav ul li {
+    margin-right: 25px;
+}
+nav ul li a {
+    
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: #af670a;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#conteudo {
+    width:710px;
+    height: 20px;
+}
+article#video {
+    margin-left: 25px;
+    float: left;
+}
+article h3 {
+    margin-top: 12px;
+}
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+a {
+    color: #af670a;
+    text-decoration: none;
+}
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+.histP {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+aside {
+    width: 350px;
+    background: #ebe7dd;
+}
+main .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.visitas {
+
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+    
+    margin-top: 10px;
+}
+.visita {
+
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+    
+    margin-top: 10px;
+}
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+fieldset {
+    border: none;
+}
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+input[type="submit"] {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+.foto {
+    width: 95px;
+    height: 101px;
+    background: url(img/fundo-foto.png);
+    padding: 17px 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+footer {
+   margin-top: 20px;
+}
+footer .wrapper {
+    background: url(img/fundo-rodape.png) center top no-repeat;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .wrapper span {
+    color: red;
+}
+.listFooter {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+.listaFot {
+    margin-top: 10px;
+}
+.footerP {
+    margin: 10px auto;
+}
+.footerP a {
+    margin: 0 5px;
+}
